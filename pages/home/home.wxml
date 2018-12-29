@@ -1,0 +1,11 @@
+<view class="home">
+  <view class='search background-c11' bind:tap="onGoSearch">
+    <image src="../../images/icon/search.png" class='home-search'></image>
+    <text class='search-text color-c09 font-f05'>搜索商品名/症状/疾病名</text>
+  </view>
+  <view class='main'>
+    <block wx:for="{{options}}" wx:key="index">
+      <image src="{{item}}" class='main-img'></image>
+    </block>
+  </view>
+</view>

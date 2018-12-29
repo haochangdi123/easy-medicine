@@ -1,0 +1,5 @@
+<view class="no-goods">
+  <image src="{{msgobj.img}}" class="no-img"></image>
+  <text>{{msgobj.msg}}</text>
+  <text>{{msgobj.tryMsg}}</text>
+</view>

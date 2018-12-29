@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/search/search",
+    "pages/good-detail/good-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  }
+}

@@ -1,0 +1,21 @@
+<view>
+  <view class="search background-c12">
+    <view class="search-main background-c11">
+      <image src="../../images/icon/search.png" class='search-img'></image>
+      <input type="text" placeholder="搜索商品名/症状/疾病名" placeholder-class="color-c09 font-f05" class="search-input"></input>
+    </view>
+    <text class="search-text">搜索</text>
+  </view>
+  <view class="tag-main" wx:if="{{!goodsShow}}">
+    <block wx:for="{{arr}}" wx:key="index">
+      <view class='tag font-f05'>{{item}}</view>
+    </block>
+  </view>
+  <view class="search-goods" wx:if="{{goodsShow && hasGoods}}">
+    <search-title-cmp></search-title-cmp>
+    <block>
+      <search-good-cmp bind:tap="onGoGoodDetail"></search-good-cmp>
+    </block>
+  </view>
+  <no-cmp wx:if="{{!hasGoods}}" msgobj="{{noGoodMsg}}"></no-cmp>
+</view>

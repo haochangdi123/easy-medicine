@@ -1,0 +1,8 @@
+<view class="search-title">
+  <view class="{{isActive == 'compositive' ? 'active' : ''}}" bind:tap="onCompositive">综合</view>
+  <view class="{{isActive == 'sales' ? 'active' : ''}}" bind:tap="onSales">销量</view>
+  <view class="{{isActive == 'price' ? 'active' : ''}} price" bindtap="onChangePrice">  
+    <text>价格</text>
+    <image src="{{showUp ? upImg : downImg}}" class="price-img"></image>
+  </view>
+</view>

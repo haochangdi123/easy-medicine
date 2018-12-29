@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  height: 60rpx;
+  margin: 14rpx 30rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+}
+.home-search {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 15rpx 14rpx 15rpx 20rpx;
+}
+.main {
+  padding: 30rpx;
+  padding-bottom: 0;
+  background: #fff;
+}
+.main-img {
+  width: 100%;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.main-img:first-of-type {
+  margin: 0;
+}

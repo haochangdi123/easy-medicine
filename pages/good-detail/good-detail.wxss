@@ -1,0 +1,137 @@
+page {
+  background: #f0eff4;
+}
+.good-top {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.good-img {
+  width: 750rpx;
+  height: 750rpx;
+}
+
+.good-title {
+  padding: 0 20rpx;
+  margin: 20rpx 0 27rpx;
+  line-height: 40rpx;
+}
+
+.otc-img {
+  width: 78rpx;
+  height: 34rpx;
+  margin-right: 24rpx;
+}
+
+.message {
+  padding: 0 20rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+}
+
+.price {
+  margin: 60rpx 0 19rpx;
+  padding: 0 20rpx;
+  color: red;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: 26rpx;
+  margin-right: 5rpx;
+}
+
+.num {
+  font-size: 36rpx;
+}
+
+.middle {
+  margin: 20rpx 0;
+}
+
+.explain,
+.size {
+  display: flex;
+  padding: 0 20rpx;
+  height: 70rpx;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.explain-title {
+  display: flex;
+  align-items: center;
+}
+
+.explain-img {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 12rpx;
+}
+
+.size {
+  margin-top: 1px;
+}
+
+.size-name {
+  margin-right: 10rpx;
+}
+
+
+/* 商品说明书 */
+.explain-detali {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 100;
+} 
+
+.explain-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 29rpx 0 31rpx;
+  line-height: 34rpx;
+  text-align: center;
+  border-bottom: 1px solid #f0eff4;
+} 
+
+.use,
+.cure {
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+}
+
+.use-title,
+.cure-title {
+  line-height: 30rpx;
+  margin-bottom: 18rpx;
+}
+.use-main,
+.cure-main {
+  line-height: 32rpx;
+}
+
+.cure {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.close-explain {
+  height: 88rpx;
+  color: #ffffff;
+  background: #fa4532;
+  border-radius: 0;
+  font-size: 34rpx;
+}
+

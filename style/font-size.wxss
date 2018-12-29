@@ -1,0 +1,27 @@
+.font-f01 {
+  font-size: 48rpx;
+}
+
+.font-f02 {
+  font-size: 36rpx;
+}
+
+.font-f03 {
+  font-size: 34rpx;
+}
+
+.font-f04 {
+  font-size: 30rpx;
+}
+
+.font-f05 {
+  font-size: 28rpx;
+}
+
+.font-f06 {
+  font-size: 24rpx;
+}
+
+.font-f07 {
+  font-size: 20rpx;
+}

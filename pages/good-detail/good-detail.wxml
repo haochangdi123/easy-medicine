@@ -1,0 +1,48 @@
+<view class="good-detail">
+  <view class="good-top">
+    <image src="../../images/home/option-a.jpg" class="good-img"></image>
+    <view class="good-title">
+      <image src="../../images/home/option-a.jpg" class='otc-img'></image>
+      <text class='good-name color-c07 font-f04'>好啊是大的爱上啊是的啊实打实的武媚娘发给你你的腹肌图哟 i 家</text>
+    </view>
+    <view class="message color-c02 font-f06">
+      好啊是大的爱上啊是的啊实打实的武媚娘发给你你的腹肌图哟 i 家好啊是大的爱上啊是的啊实打实的武媚娘发给你你的腹肌图哟 i 家好啊是大的爱上啊是的啊实打实的武媚娘发给你你的腹肌图哟 i 家好啊是大的爱上啊是的啊实打实的武媚娘发给你你的腹肌图哟 i 家
+    </view>
+    <view class="price">
+      <text class="unit">¥</text>
+      <text class="num">2569</text>
+    </view>
+  </view>
+
+  <view class='middle'>
+    <view class='explain' bind:tap='onShowExplain'>
+      <view class='explain-title'>
+        <image src='../../images/good-detail/explain.png' class='explain-img'></image>
+        <text class='explain-name color-c08 font-f04'>药品说明书</text>
+      </view>
+      <text class='more color-c08 font-f04'>></text>
+    </view>
+    <view class='size'>
+      <view>
+        <text class='size-name color-c08 font-f04'>规格</text>
+        <text class='color-c07 font-f04'>请选择规格</text>
+      </view>
+      <text class='color-c08 font-f04'>></text>
+    </view>
+  </view>
+  <view class='explain-detali' wx:if="{{isShowExplain}}">
+    <scroll-view class='explain-main' style="height: 480rpx;" scroll-y>
+      <view class='title color-c07 font-f03'>药品说明书</view>
+      <view class='use'>
+        <text class='color-c07 font-f04 use-title'>用法用量</text>
+        <text class='color-c09 font-f05 use-main'>啊是的啊是的是的啊是啊是的啊是的是的啊是的啊啥的啊是的啊是的是的啊是的啊啥的的啊啥的</text>
+      </view>
+      <view class='cure'>
+        <text class='color-c07 font-f04 cure-title'>功能主治</text>
+        <text class='color-c09 font-f05 cure-main'>是的啊啊是的啊是的是的啊啊是的啊是的是的啊是的啊啥的啊是的啊是的是的啊是的啊啥的啊是的啊是的是的啊是的啊啥的啊是的啊是的是的啊是的啊啊是的啊啥的是的啊啥的</text>
+      </view>
+    </scroll-view>
+    <button class='close-explain' bind:tap='onCloseExplain'>关闭</button>
+  </view>
+  <mask-cmp wx:if="{{showMask}}"></mask-cmp>
+</view>

@@ -1,0 +1,11 @@
+<view class="good">
+  <image src="./images/none@3x.png" class='good-img'></image>
+  <view class='good-main'>
+    <text class='good-title'>鸿茅药酒就是好</text>
+    <text class='good-price'>¥256</text>
+    <view class='good-scale'>
+      <text class='scale-title'>销量</text>
+      <text class='scale-nul'>26684</text>
+    </view>
+  </view>
+</view>

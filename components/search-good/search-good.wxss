@@ -1,0 +1,42 @@
+.good {
+  display: flex;
+  height: 240rpx;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f8f8f8;
+} 
+
+.good-img{
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}
+
+.good-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.good-title {
+  font-size: 30rpx;
+  line-height: 35rpx;
+  color: #212630;
+}
+
+.good-price {
+  font-size: 34rpx;
+  line-height: 34rpx;
+  color: #fa4532;
+}
+
+.good-scale {
+  display: flex;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #979ca8;
+}
+.scale-title {
+  margin-right: 10rpx;
+}

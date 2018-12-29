@@ -1,0 +1,32 @@
+.search-title {
+  display: flex;
+  height: 86rpx;
+  line-height: 86rpx;
+  font-size: 30rpx;
+  color: #5f6575;
+  background: #f8f8f8;
+}
+
+.search-title > view {
+  flex: 1;
+  margin: 0 50rpx;
+  text-align: center;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.search-title .active {
+  color: #fa4532;
+  border-bottom: 2px solid #fa4532;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-img {
+  width: 16rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}

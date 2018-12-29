@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "search-title-cmp": "/components/search-title/search-title",
+    "search-good-cmp": "/components/search-good/search-good",
+    "no-cmp": "/components/no/no"
+  }
+}
